@@ -1,5 +1,3 @@
-NATICORD PYTHON HAS BEEN REPLACED BY C#. CHECK DEV BRANCH.
-
 # naticord
 ![work](https://img.shields.io/badge/work-in%20progress-green?style=plastic)
 ![please star this <3](https://img.shields.io/badge/please%20star%20this%20%3C3-yellow?style=plastic)
