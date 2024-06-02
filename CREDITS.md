@@ -24,7 +24,7 @@ If you would like to contribute, you can do so by adding your language in the `l
 
 # LibCord Credits
 
-### Literally everything
-axeltechtips - creator - i guess?
-n1d3v - Naticord, this project wouldn't exist without it.
+### Literally everything else
+- axeltechtips, creator of LibCord
+- n1d3v for Naticord, this project wouldn't exist without it.
 
