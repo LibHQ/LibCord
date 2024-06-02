@@ -1,20 +1,30 @@
-# Credits
-I would like to thank you all for using naticord first of all. But let's get to the real credits
+# Original Credits
+
+Thanks for trying out LibCord, but lets give out the original credits to keep the legacy going.
+
 ### Translation
 - Shavix for Polish
-- Estrailia for Estonian, Swedish and Brainrot
+- Estrailia for Estonian, Swedish, and Brainrot
 - pmagixc for Romanian and Romanian (Gangster)
 - pewpewpewxoxo for Roadman
 - theoneandonlyseal for Silly and Seal
 - JukFiuuTech for Bulgarian
-- Benjamin (my IRL friend) for Italian
+- Benjamin (n1d3v's IRL friend) for Italian
 - loulou for French and Spanish
 - terathebyte for Serbian
 - Estrailia's friend for Persian
-- And myself for making English translations
+- And n1d3v for making English translations
 
-If you would like to contribute you can by adding your language in languages/ in the repo.
+If you would like to contribute, you can do so by adding your language in the `languages/` directory in the repo.
 
 ### Contributors
-- Shavix for some README and code fixes
-- Axel for maintaining the macOS build
+- Shavix for some code fixes & README
+
+---
+
+# LibCord Credits
+
+### Literally everything
+axeltechtips - creator - i guess?
+n1d3v - Naticord, this project wouldn't exist without it.
+
