@@ -47,7 +47,7 @@ Special thanks to the creators of [Naticord](https://github.com/n1d3v/Naticord) 
 
 ## License
 
-LibCord is open-source and available under the [MIT License](LICENSE).
+LibCord is open-source and available under the [Apache License](LICENSE).
 
 ## Contact
 
