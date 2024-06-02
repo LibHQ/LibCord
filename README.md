@@ -1,108 +1,142 @@
-# naticord
-![work](https://img.shields.io/badge/work-in%20progress-green?style=plastic)
-![please star this <3](https://img.shields.io/badge/please%20star%20this%20%3C3-yellow?style=plastic)
+# LibCord
+
+LibCord is an unofficial Discord client built in Python, offering a unique and customizable chat experience. This project was inspired by and is partially built upon the discontinued project [Naticord](https://github.com/n1d3v/Naticord). We extend our gratitude to the creators of Naticord for their contributions, which have been invaluable in the development of LibCord.
 
 > [!CAUTION]
-> ### Do not blame me if you get banned.
-> Discord may ban you if they catch you using a custom client, this hasn't happened to anyone yet using naticord or other client mods such as Vencord.
+> ### Do not blame us if you get banned.
+> Discord may ban you if they catch you using a custom client, this hasn't happened to anyone yet using LibCord or client mods such as Vencord.
 
-Naticord / Native-cord is a native Discord client made in Python.
+## Features
 
-Why make a native client or even a custom client at all? Well, it's because Discord's half baked web app is **shit**. I want to have a simple yet good experience while having my RAM not being taken by Discord. So this was the answer.
+- **Customizable Interface**: Personalize your chat experience with various themes and settings.
+- **Lightweight**: A minimalistic approach ensures low resource usage.
+- **Cross-Platform**: Compatible with Windows, macOS, and Linux.
 
-The official Discord app goes to 400MB idle while this can go all the way low to 25MB!
+## Installation
 
-Also feel free to make changes to the source! Make my code better as mine is pretty shit as it is, so I accept any PRs I get.
+You can install LibCord in two ways:
 
-The UI is also sort of inspired Windows Live Messenger (long live WLM)
+### Using the Releases Page
 
-<a href="https://star-history.com/#n1d3v/naticord&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=n1d3v/naticord&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=n1d3v/naticord&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=n1d3v/naticord&type=Date" />
- </picture>
+1. Visit the [Releases](https://github.com/LibHQ/LibCord/releases) page.
+2. Download the latest version for your operating system.
+3. Follow the provided instructions to install and run LibCord.
 
-# Changelog
-Changelog can be found in the root directory of this repo as `CHANGELOG.md`.
+### From Source
 
-# Contributing
-Contributing guide can be found in the root directory of this repo as `CONTRIBUTORS.md`.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/LibHQ/LibCord.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd LibCord
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4. Run the application:
+    ```sh
+    python main.py
+    ```
 
+## Contributing
 
-</a>
+We welcome contributions from the community. If you have an idea for a feature or improvement, or if you find a bug, please follow these steps to contribute:
 
-# Installation
-There are 3 different ways to install naticord on Windows, Linux and macOS.
-### Windows
-```
-pip install pyqt5 requests
-```
-### Linux
-```
-pip3 install pyqt5 requests
-```
-### macOS
-First install Homebrew (brew.sh). Then in terminal run
-```
-brew install python
-```
-Then run
-```
-pip3 install pyqt5 requests
-```
-And then just run `naticord.py`
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/your-feature-name`).
+6. Open a pull request.
 
-# How to login
+## Acknowledgements
 
-1. Login to Discord on any web browser
-2. Refresh the page (F5)
-3. Do Ctrl + Shift + I (Or just right click and inspect element)
-4. Go to Responsive Design Mode (Or if you're on Chrome, it's "Toggle Device Toolbar")
-On Firefox it should be an icon with a phone and a tablet, on Chrome a phone with a laptop
-5. Go to local storage (on Chrome, go to Application and there should be local storage)
-6. In the filter tab, search "token"
+Special thanks to the creators of [Naticord](https://github.com/n1d3v/Naticord) for their pioneering work, which has significantly aided the development of LibCord.
 
-![image](https://github.com/Shavixinio/naticord/assets/54279284/7784ece1-3dbf-4fe5-916b-877c86404be8)
+## License
 
-8. Get the token and paste it into the Naticord login page
+LibCord is open-source and available under the [MIT License](LICENSE).
 
-![image](https://github.com/Shavixinio/naticord/assets/54279284/c588eb0d-edf6-4ab7-b2e5-c9ddbb298892)
+## Contact
 
+If you have any questions or suggestions, feel free to reach out:
 
-# Switching accounts
+- **X**: [@LBYSoftware](https://x.com/LBYSoftware)
 
-1. Go to C:/Users/YourName/Config.ini
-2. Replace the token with your other token
+---
 
-# What's working
-- Logging in with a token
-- Friends
-- DMs
-- Sending messages in DMs
-- Basic server functionality
-- Ping support
-- Websockets
-- File uploading
-- Images
-- Account switching / adding (multiple accounts)
-- Localization
-# Todo
-- ~~Server functionality~~
-- ~~Better UI~~
-- ~~Fix servers~~
-- ~~Image support~~
-- Add editing, reply and delete
-- Emojis
-- Server channel categories
-- Voice calling (might not happen)
-# Bugs
-- ~~App lags when DMs refresh (not a bug thats a feature™)~~
-- Pings are broken (will be fixed pretty shortly)
-# Screenshots
-![image](https://github.com/n1d3v/naticord/assets/135556230/f16cb368-cade-4fdf-b6a7-e8cfdf2d469a)
+Thank you for using LibCord. Enjoy your Discord experience!
+# LibCord
 
+LibCord is an unofficial Discord client built in Python, offering a unique and customizable chat experience. This project was inspired by and is partially built upon the discontinued project [Naticord](https://github.com/n1d3v/Naticord). We extend our gratitude to the creators of Naticord for their contributions, which have been invaluable in the development of LibCord.
 
+> [!CAUTION]
+> ### Do not blame us if you get banned.
+> Discord may ban you if they catch you using a custom client, this hasn't happened to anyone yet using LibCord or client mods such as Vencord.
 
+## Features
 
+- **Customizable Interface**: Personalize your chat experience with various themes and settings.
+- **Lightweight**: A minimalistic approach ensures low resource usage.
+- **Cross-Platform**: Compatible with Windows, macOS, and Linux.
 
+## Installation
+
+You can install LibCord in two ways:
+
+### Using the Releases Page
+
+1. Visit the [Releases](https://github.com/LibHQ/LibCord/releases) page.
+2. Download the latest version for your operating system.
+3. Follow the provided instructions to install and run LibCord.
+
+### From Source
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/LibHQ/LibCord.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd LibCord
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4. Run the application:
+    ```sh
+    python main.py
+    ```
+
+## Contributing
+
+We welcome contributions from the community. If you have an idea for a feature or improvement, or if you find a bug, please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/your-feature-name`).
+6. Open a pull request.
+
+## Acknowledgements
+
+Special thanks to the creators of [Naticord](https://github.com/n1d3v/Naticord) for their pioneering work, which has significantly aided the development of LibCord.
+
+## License
+
+LibCord is open-source and available under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- **X**: [@LBYSoftware](https://x.com/LBYSoftware)
+
+---
+
+Thank you for using LibCord. Enjoy your Discord experience!
