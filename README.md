@@ -41,17 +41,6 @@ You can install LibCord in two ways:
     python main.py
     ```
 
-## Contributing
-
-We welcome contributions from the community. If you have an idea for a feature or improvement, or if you find a bug, please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature/your-feature-name`).
-6. Open a pull request.
-
 ## Acknowledgements
 
 Special thanks to the creators of [Naticord](https://github.com/n1d3v/Naticord) for their pioneering work, which has significantly aided the development of LibCord.
