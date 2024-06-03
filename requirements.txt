@@ -1,0 +1,4 @@
+asyncio
+aiohttp
+configparser
+PyQt5
